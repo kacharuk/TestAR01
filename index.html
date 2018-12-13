@@ -3,14 +3,14 @@
 <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
 
 <body style='margin : 0px; overflow: hidden;'>
-  <a-christmas embedded arjs='sourceType: webcam; debugUIEnabled: false;detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
+  <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
       <a-marker type='barcode' value='6'>
        			  <a-entity 
                      id="drone"
                      position="0.1 0.1 0.1"
 					 rotation="0 -90 0"
                      scale="0.1 0.1 0.1"
-					 gltf-model="url(https://raw.githubusercontent.com/kacharuk/TestAR01/master/mermaid_greeting3/christmas.gltf);"
+					 gltf-model="url(https://raw.githubusercontent.com/kacharuk/TestAR01/master/merry_christmas/scene.gltf);"
 animation-mixer="clip: *">
                
 					</a-entity>
@@ -18,5 +18,5 @@ animation-mixer="clip: *">
 	  
   <a-entity camera>
   </a-entity>
-  </a-christmas>
+  </a-scene>
 </body>
