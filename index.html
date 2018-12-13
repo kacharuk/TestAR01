@@ -6,11 +6,12 @@
   <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
       <a-marker type='barcode' value='6'>
        			  <a-entity 
-                     id="scene"
-                     position="0.05 0.05 0.05"
+                     id="drone"
+                     position="0.1 0.1 0.1"
 					 rotation="0 0 0"
                      scale="0.01 0.01 0.01"
-					 gltf-model="url(https://raw.githubusercontent.com/kacharuk/TestAR01/master/mermaid_greeting3/scene.gltf);">
+					 gltf-model="url(https://raw.githubusercontent.com/kacharuk/TestAR01/master/mermaid_greeting3/scene.gltf);"
+animation-mixer="clip: *">
                
 					</a-entity>
 		</a-marker>
