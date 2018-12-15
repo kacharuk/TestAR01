@@ -768,6 +768,10 @@
                     "index" : 0
                 }
             }
+        },
+        {
+            "name" : "Wave3",
+            "pbrMetallicRoughness" : {}
         }
     ],
     "meshes" : [
@@ -791,7 +795,8 @@
                         "NORMAL" : 5,
                         "POSITION" : 4
                     },
-                    "indices" : 3
+                    "indices" : 3,
+                    "material" : 1
                 }
             ]
         },
