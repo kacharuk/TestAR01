@@ -762,11 +762,44 @@
     ],
     "materials" : [
         {
+            "name" : "LogoTextColor",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.016807377338409424,
+                    0.013702086172997952,
+                    0.014443841762840748,
+                    1.0
+                ]
+            }
+        },
+        {
             "name" : "Texture.001",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
                 }
+            }
+        },
+        {
+            "name" : "Wave1",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.0,
+                    0.2704978287220001,
+                    0.6724432706832886,
+                    1.0
+                ]
+            }
+        },
+        {
+            "name" : "Wave2",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.0423114150762558,
+                    0.17788845300674438,
+                    0.5520114898681641,
+                    1.0
+                ]
             }
         },
         {
@@ -790,7 +823,8 @@
                         "NORMAL" : 2,
                         "POSITION" : 1
                     },
-                    "indices" : 0
+                    "indices" : 0,
+                    "material" : 3
                 }
             ]
         },
@@ -803,7 +837,7 @@
                         "POSITION" : 4
                     },
                     "indices" : 3,
-                    "material" : 1
+                    "material" : 4
                 }
             ]
         },
@@ -817,7 +851,7 @@
                         "TEXCOORD_0" : 9
                     },
                     "indices" : 6,
-                    "material" : 0
+                    "material" : 1
                 }
             ]
         },
@@ -831,7 +865,7 @@
                         "TEXCOORD_0" : 13
                     },
                     "indices" : 10,
-                    "material" : 0
+                    "material" : 1
                 }
             ]
         },
@@ -843,7 +877,8 @@
                         "NORMAL" : 16,
                         "POSITION" : 15
                     },
-                    "indices" : 14
+                    "indices" : 14,
+                    "material" : 2
                 }
             ]
         },
@@ -857,7 +892,7 @@
                         "TEXCOORD_0" : 20
                     },
                     "indices" : 17,
-                    "material" : 0
+                    "material" : 1
                 }
             ]
         },
@@ -871,7 +906,7 @@
                         "TEXCOORD_0" : 24
                     },
                     "indices" : 21,
-                    "material" : 0
+                    "material" : 1
                 }
             ]
         },
@@ -885,7 +920,7 @@
                         "TEXCOORD_0" : 28
                     },
                     "indices" : 25,
-                    "material" : 0
+                    "material" : 1
                 }
             ]
         },
@@ -899,7 +934,7 @@
                         "TEXCOORD_0" : 32
                     },
                     "indices" : 29,
-                    "material" : 0
+                    "material" : 1
                 }
             ]
         },
@@ -911,7 +946,8 @@
                         "NORMAL" : 35,
                         "POSITION" : 34
                     },
-                    "indices" : 33
+                    "indices" : 33,
+                    "material" : 0
                 }
             ]
         }
