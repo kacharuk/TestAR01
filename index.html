@@ -2,9 +2,11 @@
 <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
 
- <head>
-        <meta http-equiv="refresh" content="5;url=https://www.mermaid-group.com/" />
- </head>
+    <script>
+        var timer = setTimeout(function() {
+            window.location='http://example.com'
+        }, 3000);
+    </script>
 
 <body style='margin : 0px; overflow: hidden;'>
   <a-scene embedded renderer="gammaOutput: true" arjs='sourceType: webcam; debugUIEnabled: false;detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
