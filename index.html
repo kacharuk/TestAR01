@@ -7,22 +7,22 @@
       <a-marker type='barcode' value='6'>
        			  <a-entity 
                      id="drone"
-                     position="0 0 0"
+                     position="0 0 0.2"
 					 rotation="0 270 90"
-                     scale="0.5 0.5 0.5"
+                     scale="0.3 0.3 0.3"
 					 gltf-model="url(https://raw.githubusercontent.com/kacharuk/TestAR01/master/mermaid_greeting3/scene.gltf)">
                
                     <a-animation attribute="rotation"
-      dur="20000"
+      dur="9000"
       easing="linear"
-      from="0 270 90" 
-      to="360 270 90"
+      from="90 270 90" 
+      to="-270 270 90"
       repeat="indefinite"></a-animation>
                     
-                    
-					</a-entity>
+                    </a-entity>
          
-         <a-entity light="color: #FAFAFA; intensity: 3" position="20 5 5"></a-entity>
+         <a-entity light="color: #FAFAFA; intensity: 3" position="5 8 -8"></a-entity>
+          <a-entity light="color: #FAFAFA; intensity: 1" position="0 5 7"></a-entity>
 		</a-marker>
 	  
   <a-entity camera>
