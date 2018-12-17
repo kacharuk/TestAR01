@@ -8,6 +8,7 @@ button {
 	position:absolute;
 	bottom:20;
 	right:20;
+	font-weight: bold
 }
 button:focus {
     border: none;
@@ -57,13 +58,21 @@ button:focus {
 	  
 	<audio id="myAudio" src="https://raw.githubusercontent.com/kacharuk/TestAR01/master/mermaid_greeting3/song.mp3" preload="auto">
 	</audio>
-	<button  onClick="togglePlay()" type="button">+Music</button>
+	<button id="musicButton" onClick="togglePlay()" type="button">Play Music</button>
 	
 	
 	<script>
 		var myAudio = document.getElementById("myAudio");
 
 		function togglePlay() {
+
+var x = document.getElementById("musicButton");
+  if (x.innerHTML === "Play Music") {
+    x.innerHTML = "Pause Music";
+  } else {
+    x.innerHTML = "Play Music";
+  }
+		
 		return myAudio.paused ? myAudio.play() : myAudio.pause();
 };
     </script>
