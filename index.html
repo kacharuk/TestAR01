@@ -24,12 +24,7 @@ button:focus {
             window.location='https://www.mermaid-group.com/'
         }, 50000);
 		
-		
-		var myAudio = document.getElementById("myAudio");
 
-		function togglePlay() {
-		return myAudio.paused ? myAudio.play() : myAudio.pause();
-};
     </script>
 
 <body style='margin : 0px; overflow: hidden;'>
@@ -60,10 +55,18 @@ button:focus {
   </a-scene>
   	  
 	  
-	<audio id="myAudio" src="mermaid_greeting3\New_Year_s_Anthem.mp3" preload="auto">
+	<audio id="myAudio" src="https://raw.githubusercontent.com/kacharuk/TestAR01/master/mermaid_greeting3/song.mp3" preload="auto">
 	</audio>
 	<button  onClick="togglePlay()" type="button">+Music</button>
 	
+	
+	<script>
+		var myAudio = document.getElementById("myAudio");
+
+		function togglePlay() {
+		return myAudio.paused ? myAudio.play() : myAudio.pause();
+};
+    </script>
 </body> 
 
 </html>
